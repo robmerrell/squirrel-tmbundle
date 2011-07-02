@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>F13D197C-D517-4347-B16D-CF7C1E0353BB</string>
+			<string>7118D470-4512-44D9-9238-267B3539A21A</string>
+			<string>FBE00F95-BCC5-42A2-A3F8-741C11D475A5</string>
+			<string>B5B257FA-E48C-4656-B0F5-3990C499BC7D</string>
+			<string>DD7FA46B-B2D4-4D7B-BEE3-848280EAD8A1</string>
+			<string>06BC98C1-FEC4-49F7-AF45-1281CEEA7A79</string>
+			<string>50C69AD3-41D1-47BA-84ED-65A0AA99E185</string>
+			<string>B78AC460-EB0E-4AE5-B166-A7C312E351B3</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
+	<key>name</key>
+	<string>Squirrel</string>
+	<key>uuid</key>
+	<string>95D5C59F-B0EE-4EBD-9B63-9BFDD10E1066</string>
+</dict>
+</plist>
