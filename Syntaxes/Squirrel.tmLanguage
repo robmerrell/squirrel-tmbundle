@@ -67,7 +67,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(function)\s*([a-zA-Z0-9_]*)\s*\((.*)\)</string>
+			<string>^\s*(function)\s*([a-zA-Z0-9_]*)\s*\(([a-zA-Z0-9_]*)\)</string>
 			<key>name</key>
 			<string>other.function</string>
 		</dict>
