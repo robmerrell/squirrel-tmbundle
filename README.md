@@ -10,7 +10,7 @@ Contributions are welcome!
 * **constr** => constructor definition
 * **for** => for (_initialize_; _max_; _evaluate_) { }
 * **foreach** => foreach (_element_ in _collection_)
-* **funct** => function _name_(_args_) { }
+* **func** => function _name_(_args_) { }
 * **if** => if (_statement_) { }
 * **l** => local _variable_
 * **p** => print(_args_)

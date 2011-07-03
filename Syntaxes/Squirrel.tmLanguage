@@ -45,7 +45,31 @@
 			<key>match</key>
 			<string>\b(class)\s+([a-zA-Z_](?:\w|\.)*)(?:\s+(extends)\s+([a-zA-Z_](?:\w|\.)*))?</string>
 			<key>name</key>
-			<string>meta.class.actionscript.2</string>
+			<string>meta.class.squirrel</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control.squirrel</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.method</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(function)\s*([^\(]*)(.*)</string>
+			<key>name</key>
+			<string>other.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
