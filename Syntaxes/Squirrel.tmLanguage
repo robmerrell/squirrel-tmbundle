@@ -63,13 +63,46 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.method</string>
+					<string>variable.parameter</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(function)\s*([^\(]*)(.*)</string>
+			<string>^\s*(function)\s*([a-zA-Z0-9_]*)\s*\((.*)\)</string>
 			<key>name</key>
 			<string>other.function</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(constructor)\s*\((.*)\)</string>
+			<key>name</key>
+			<string>other.constructor</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.function</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(::[a-zA-Z0-9_]*)</string>
+			<key>name</key>
+			<string>other.global</string>
 		</dict>
 		<dict>
 			<key>match</key>
